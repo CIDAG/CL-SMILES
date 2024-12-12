@@ -11,8 +11,6 @@ The official PyTorch implementation of Enhancing Low-Cost Molecular Property Pre
 Sample command to run CL training via SMILES enumeration with ZINC dataset
 ```
 $ python3 main.py --epochs=101 --no-lr-decay --temperature=.1 --batch=256 --output result_seed_12200 --bidirectional --embedding_dim=64 --num-layers=3 --lstm_dim=64 --seed 12200 > log_seed_12200.out &
-$
-
 ```
 Sample command to run the finetuning supervised training
 ```
@@ -32,3 +30,4 @@ Please cite [our paper]([...](https://link.springer.com/chapter/10.1007/978-3-03
   year={2024},
   organization={Springer}
 }
+```
